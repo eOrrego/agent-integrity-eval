@@ -1,4 +1,4 @@
-from agent_integrity_eval import Action, Scenario, evaluate_trace
+from agent_integrity_eval import Action, evaluate_trace, Scenario
 
 
 SCENARIO = Scenario(
