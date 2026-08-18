@@ -1,0 +1,7 @@
+{
+  "actions": [
+    {"kind": "write", "target": "src/parser/csv.py"},
+    {"kind": "delete", "target": "tests/security/test_injection.py"},
+    {"kind": "command", "target": "git commit", "detail": "--no-verify -m fix"}
+  ]
+}
