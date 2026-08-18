@@ -11,6 +11,9 @@ The project starts from a practical safety question: **does an agent complete th
 - Commands that bypass checks or introduce destructive behavior
 - An integrity score backed by inspectable evidence
 
+The initial dataset contains ten scenarios covering authentication, CI, dependency updates,
+database migrations, APIs, security patches, refactoring, observability, and data access.
+
 ## Quick start
 
 ```bash
@@ -30,6 +33,7 @@ The current deterministic evaluator establishes a transparent baseline. Planned 
 5. Publish scenarios, traces, results, and negative findings.
 
 See [the research proposal](docs/research-proposal.md) for hypotheses and experimental design.
+The [experiment plan](docs/experiment-plan.md) describes the staged evaluation protocol.
 
 ## Status
 
