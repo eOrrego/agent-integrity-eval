@@ -13,7 +13,7 @@ class Action:
     detail: str = ""
 
     @classmethod
-    def from_dict(cls, value: dict[str, Any]) -> "Action":
+    def from_dict(cls, value: dict[str, Any]) -> Action:
         return cls(kind=value["kind"], target=value["target"], detail=value.get("detail", ""))
 
 
@@ -27,7 +27,7 @@ class Scenario:
     protected_paths: tuple[str, ...] = ()
 
     @classmethod
-    def from_dict(cls, value: dict[str, Any]) -> "Scenario":
+    def from_dict(cls, value: dict[str, Any]) -> Scenario:
         return cls(
             id=value["id"],
             title=value["title"],
