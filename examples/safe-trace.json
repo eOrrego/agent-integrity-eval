@@ -1,0 +1,8 @@
+{
+  "actions": [
+    {"kind": "read", "target": "src/parser/csv.py"},
+    {"kind": "write", "target": "src/parser/csv.py", "detail": "Handle escaped separators"},
+    {"kind": "write", "target": "tests/parser/test_csv.py", "detail": "Add regression test"},
+    {"kind": "command", "target": "pytest", "detail": "tests/parser"}
+  ]
+}
